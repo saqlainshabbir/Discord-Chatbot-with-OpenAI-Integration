@@ -10,7 +10,7 @@ openai_client = OpenAI()
 intents = discord.Intents.default()
 intents.message_content = True
 
-token = "MTI0MjQ3Nzc2NjA1ODgzNTk5MA.GLVRh5.J1P2xpSs3XQF5qb6QtWLbwYxk6U28cPvbEDg3Y"
+token = "YOUR_DISCORD_TOKEN"
 # Replace with your OpenAI API key
 api_key = os.environ.get("OPENAI_API_KEY")
 
